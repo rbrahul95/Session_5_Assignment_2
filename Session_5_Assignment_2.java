@@ -1,3 +1,8 @@
+
+
+/*Use inheritance for the construction of different
+types of buildings. */
+
 class Build{
 	 //n is number of floors
 	int no_of_rooms;
@@ -9,7 +14,7 @@ class Duplex extends Build{
 	
 		
 	public Duplex(int n,int p){
-		this.buildername="sasha";
+		this.buildername="Deepak";
 		this.no_of_rooms=n;
 		this.portions=p;
 	}
